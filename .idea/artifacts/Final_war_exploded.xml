@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Final:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Final_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Final/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Final" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-5.1.44-bin" />
+          <element id="library" level="project" name="jstl" />
+          <element id="library" level="project" name="standard" />
+          <element id="library" level="project" name="javax.mail-1.6.0" />
+          <element id="library" level="project" name="servlet-api" />
+          <element id="library" level="project" name="cos-multipart" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
